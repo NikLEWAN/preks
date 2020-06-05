@@ -1,0 +1,16 @@
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.exe
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.deps.json
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.runtimeconfig.json
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.runtimeconfig.dev.json
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.dll
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.pdb
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.csprojAssemblyReference.cache
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.AssemblyInfoInputs.cache
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.AssemblyInfo.cs
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.dll
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.pdb
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.genruntimeconfig.cache
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\bin\Debug\netcoreapp3.1\FupLib.dll
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\bin\Debug\netcoreapp3.1\FupLib.pdb
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.csproj.CopyComplete

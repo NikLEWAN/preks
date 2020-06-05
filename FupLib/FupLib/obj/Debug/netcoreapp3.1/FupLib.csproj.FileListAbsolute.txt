@@ -1,0 +1,9 @@
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\FupLib\bin\Debug\netcoreapp3.1\FupLib.deps.json
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\FupLib\bin\Debug\netcoreapp3.1\FupLib.dll
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\FupLib\bin\Debug\netcoreapp3.1\FupLib.pdb
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\FupLib\obj\Debug\netcoreapp3.1\FupLib.csprojAssemblyReference.cache
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\FupLib\obj\Debug\netcoreapp3.1\FupLib.csproj.CoreCompileInputs.cache
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\FupLib\obj\Debug\netcoreapp3.1\FupLib.AssemblyInfoInputs.cache
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\FupLib\obj\Debug\netcoreapp3.1\FupLib.AssemblyInfo.cs
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\FupLib\obj\Debug\netcoreapp3.1\FupLib.dll
+C:\Users\Bendover\Desktop\schoo\prøveeksamen\FupLib\FupLib\obj\Debug\netcoreapp3.1\FupLib.pdb

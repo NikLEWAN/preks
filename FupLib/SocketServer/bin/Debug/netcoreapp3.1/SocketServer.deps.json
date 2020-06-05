@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SocketServer/1.0.0": {
+        "dependencies": {
+          "FupLib": "1.0.0"
+        },
+        "runtime": {
+          "SocketServer.dll": {}
+        }
+      },
+      "FupLib/1.0.0": {
+        "runtime": {
+          "FupLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SocketServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FupLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

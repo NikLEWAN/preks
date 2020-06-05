@@ -1,0 +1,12 @@
+URL: https://localhost:44367/api/transporttabs
+POST body
+{
+    "lastbil": "A",
+    "Chauffor": "MarkJet",
+    "Dato": "2019-12-01",
+    "AntalKm": 1500,
+    "Gennemsnit": 7.05
+}
+
+Delete body url: https://localhost:44367/api/transporttabs/{id}
+eksempel: https://localhost:44367/api/transporttabs/1
