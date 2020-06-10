@@ -27,6 +27,12 @@ namespace FastFupService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAnyOrigin", builder => builder.AllowAnyOrigin());
+
+            });
+
             services.AddDbContext<TransportTabContext>(opt =>
                 opt.UseInMemoryDatabase("TransportTabs"));
             services.AddControllers();
@@ -43,6 +49,8 @@ namespace FastFupService
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("AllowAnyOrigin");
 
             app.UseAuthorization();
 

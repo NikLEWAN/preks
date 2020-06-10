@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-    
+    <h1>Transports
+    </h1>
+    <div id="app">
+      <h2>Get All</h2>
+      <button v-on:click="getAllCars" class="btn btn-primary">Get all cars</button>
+  
+      <ul v-if="transporttabs.length">
+        <li v-for="transporttab in transporttabs">
+          {{transporttab.id}} {{transporttab.lastbil}} : {{transporttab.chauffor }} {{ transporttab.dato}}
+        </li>
+      </ul>
+      <!--span v-else>No cars</span-->
+  
+      <h2>Delete</h2>
+      <input class="form-control" v-model.number="deleteId" placeholder="id" type="number"/>
+      <button v-on:click="deleteCar(deleteId)" class="btn btn-warning">Delete</button>
+      {{deleteMessage}}
+  
+      <h2>Add</h2>
+      <input v-model="formData.lastbil" placeholder="model" type="text">
+      <input v-model="formData.chauffor" placeholder="vendor" type="text">
+      <input v-model="formData.dato" placeholder="vendor" type="text">
+      <input v-model.number="formData.antalKm" placeholder="price" type="number">
+      <input v-model.number="formData.gennemsnit" placeholder="price" type="number">
+      <button v-on:click="addCar()" class="btn btn-success">Add</button>
+      <div>{{addMessage}}</div>
+    </div>
     <script src="./build/index.js"></script>
 </body>
 </html>
