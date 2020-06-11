@@ -1,0 +1,42 @@
+1 Confidentiality: 
+
+Fortrolighed henviser til at beskytte oplysninger mod adgang til uautoriserede parter. 
+Med andre ord er det kun de personer, der er autoriseret til det, som får adgang til følsomme data
+
+
+
+
+2 Encryption:
+
+I kryptografi er kryptering konvertering af klartext til en kodet tekst eller chiffertekst. En kodeteksten er beregnet til at være ulæselige for uautoriserede læsere.
+
+Kryptering er en kryptografisk primitiv: den omdanner en almindelig tekstmeddelelse til en chiffertekst ved hjælp af en kryptografisk algoritme kaldet en chiffer. 
+Kryptering i moderne cifere udføres ved hjælp af en bestemt algoritme og en hemmelighed, kaldet nøglen. Da algoritmen ofte er offentlig, 
+skal nøglen forblive hemmelig, så krypteringen forbliver sikker.
+
+Sådan fungerer kryptering.
+
+Uden at kende hemmeligheden er den omvendte operation, dekryptering, matematisk svært at udføre. 
+Hvor hårdt afhænger af sikkerheden for den valgte kryptografiske algoritme og udvikler sig med udviklingen i kryptanalyse.
+
+Hvad er de forskellige typer kryptering? De to hovedtyper af kryptering er symmetrisk kryptering og asymmetrisk kryptering. 
+Asymmetrisk kryptering er også kendt som offentlig nøglekryptering. I symmetrisk kryptering er der kun en nøgle, 
+og alle kommunikerende parter bruger den samme nøgle til kryptering og dekryptering.
+
+
+
+
+3 fortrolighed:
+
+I et asymmetrisk nøglekrypteringsskema kan enhver kryptere meddelelser ved hjælp af den offentlige nøgle, 
+men kun indehaveren af den parrede private nøgle kan dekryptere. Sikkerhed afhænger af hemmeligholdelsen af den private nøgle.
+
+Symmetrisk kryptering er en type kryptering, hvor kun en nøgle (en hemmelig nøgle) bruges til både at kryptere og dekryptere elektronisk information. 
+De enheder, der kommunikerer via symmetrisk kryptering, skal udveksle nøglen, så den kan bruges i dekrypteringsprocessen
+
+
+
+4 autencitet:
+
+Symmetrisk kryptering bruger en enkelt nøgle, der skal deles mellem de mennesker, der har brug for at modtage beskeden, 
+mens asymmetrisk kryptering bruger et par offentlig nøgler og en privat nøgle til at kryptere og dekryptere meddelelser, når de kommunikerer.

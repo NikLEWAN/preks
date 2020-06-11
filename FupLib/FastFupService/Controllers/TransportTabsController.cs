@@ -41,6 +41,20 @@ namespace FastFupService.Controllers
             return transportTab;
         }
 
+
+        // GET: api/TransportTabs/Lastbil/A
+        [HttpGet("Lastbil/{lastbil}")]
+        public async Task<ActionResult<IEnumerable<TransportTab>>> GetTransportTabsLastbil(string lastbil)
+        {
+            var transportTab = await _context.TransportTabs.Where(e => e.Lastbil == lastbil).ToListAsync();
+            if (transportTab == null)
+            {
+                return NotFound();
+            }
+            return transportTab;
+        }
+
+
         // PUT: api/TransportTabs/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.

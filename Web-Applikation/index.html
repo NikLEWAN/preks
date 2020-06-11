@@ -28,13 +28,13 @@
       {{deleteMessage}}
   
       <h2>Add</h2>
-      <input v-model="formData.lastbil" placeholder="model" type="text">
-      <input v-model="formData.chauffor" placeholder="vendor" type="text">
-      <input v-model="formData.dato" placeholder="vendor" type="text">
-      <input v-model.number="formData.antalKm" placeholder="price" type="number">
-      <input v-model.number="formData.gennemsnit" placeholder="price" type="number">
+      <input v-model="formData.lastbil" placeholder="lastbil" type="text">
+      <input v-model="formData.chauffor" placeholder="chauffor" type="text">
+      <input v-model="formData.dato" placeholder="dato" type="text">
+      <input v-model.number="formData.antalKm" placeholder="antalKm" type="number">
+      <input v-model.number="formData.gennemsnit" placeholder="gennemsnit" type="number">
       <button v-on:click="addCar()" class="btn btn-success">Add</button>
-      <div>{{addMessage}}</div>
+      <output>{{addMessage}}</output>
     </div>
     <script src="./build/index.js"></script>
 </body>

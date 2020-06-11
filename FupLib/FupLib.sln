@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketServer", "SocketServe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCP", "TCP\TCP.csproj", "{602363B4-6C91-45F8-93A6-9371A4963B2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFupService", "FastFupService\FastFupService.csproj", "{CF608D64-9F7D-4A78-BC8F-D67A33BB7651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFupService", "FastFupService\FastFupService.csproj", "{CF608D64-9F7D-4A78-BC8F-D67A33BB7651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FupSeleniumTest", "FupSeleniumTest\FupSeleniumTest.csproj", "{DEF21758-275E-4474-B364-F31E8C5D3ADE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CF608D64-9F7D-4A78-BC8F-D67A33BB7651}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF608D64-9F7D-4A78-BC8F-D67A33BB7651}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF608D64-9F7D-4A78-BC8F-D67A33BB7651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF21758-275E-4474-B364-F31E8C5D3ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF21758-275E-4474-B364-F31E8C5D3ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF21758-275E-4474-B364-F31E8C5D3ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF21758-275E-4474-B364-F31E8C5D3ADE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
